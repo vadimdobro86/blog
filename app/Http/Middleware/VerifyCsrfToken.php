@@ -12,13 +12,13 @@ class VerifyCsrfToken extends Middleware
      * @var bool
      */
     protected $addHttpCookie = true;
-
+    protected $except = [
+        'adminer'
+    ];
     /**
      * The URIs that should be excluded from CSRF verification.
      *
      * @var array
      */
-    protected $except = [
-        //
-    ];
+
 }

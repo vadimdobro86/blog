@@ -2,7 +2,7 @@
 
 @section('content')
     @component('particals.jumbotron')
-        <h3>{{ lang('Categories') }}</h3>
+        <h3>{{ ('Категорії') }}</h3>
 
         <h6>{{ lang('Categories Meta') }}</h6>
     @endcomponent

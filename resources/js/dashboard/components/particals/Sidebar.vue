@@ -130,7 +130,7 @@
 }
 .buttons a {
   display: inline-block;
-  font-size: 20px;
+  font-size: 24px;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -151,7 +151,7 @@
 .sidebar-nav li a:hover {
   opacity: 1;
   text-decoration: none;
-  background: #647f9d;
+  background: #90EE90;
 }
 
 .sidebar-nav li .active {
@@ -182,7 +182,7 @@
 }
 
 .active {
-  background-color: #3d4e60;
+  background-color:#BA55D3;
   border-right: 4px solid #647f9d;
 }
 .active a {

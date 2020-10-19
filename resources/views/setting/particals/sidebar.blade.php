@@ -10,8 +10,8 @@
             <i class="far fa-bell"></i>{{ lang('Notification Setting') }}
         </a>
         @endif
-        <a href="{{ url('setting/binding') }}" class="list-group-item {{ isActive('setting.binding') }}">
-            <i class="fas fa-lock"></i>{{ lang('Account Binding') }}
-        </a>
+{{--        <a href="{{ url('setting/binding') }}" class="list-group-item {{ isActive('setting.binding') }}">--}}
+{{--            <i class="fas fa-lock"></i>{{ lang('Account Binding') }}--}}
+{{--        </a>--}}
     </div>
 </div>

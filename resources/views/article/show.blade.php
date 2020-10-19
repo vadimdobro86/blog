@@ -23,7 +23,7 @@
     <div class="article container">
     <div class="row text-center">
             <div class="col-md-8 offset-md-2">
-            <img alt="{{ $article->slug }}" src="{{ $article->page_image }}"  style="borde-radius:50px">
+            <img alt="{{ $article->slug }}" src="{{ $article->page_image }}"  style="borde-radius:50px" height="85%" width="80%">
             </div>
         </div>
         <br>

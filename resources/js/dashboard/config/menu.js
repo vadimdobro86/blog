@@ -31,12 +31,14 @@ export default [{
     permission: 'LIST_CATEGORY',
     icon: 'fas fa-list-alt',
     uri: { name: 'dashboard.category' }
-  }, {
-    label: 'sidebar.link',
-    permission: 'LIST_LINK',
-    icon: 'fas fa-globe',
-    uri: { name: 'dashboard.link' }
-  }]
+  },
+  //   {
+  //   label: 'sidebar.link',
+  //   permission: 'LIST_LINK',
+  //   icon: 'fas fa-globe',
+  //   uri: { name: 'dashboard.link' }
+  // }
+  ]
 }, {
   label: 'sidebar.modules.base',
   children: [{
@@ -50,22 +52,24 @@ export default [{
     icon: 'fas fa-folder',
     uri: { name: 'dashboard.file' }
   }],
-}, {
-  label: 'sidebar.modules.system',
-  children: [{
-    label: 'sidebar.visitor',
-    permission: 'LIST_VISITOR',
-    icon: 'fas fa-eye',
-    uri: { name: 'dashboard.visitor' }
-  }, {
-    label: 'sidebar.role',
-    permission: 'LIST_ROLE',
-    icon: 'fas fa-exclamation-triangle',
-    uri: { name: 'dashboard.role' }
-  }, {
-    label: 'sidebar.system',
-    permission: 'LIST_SYSTEM_INFO',
-    icon: 'fas fa-cogs',
-    uri: { name: 'dashboard.system' }
-  }]
+},
+  {
+  // label: 'sidebar.modules.system',
+  // children: [{
+  //   label: 'sidebar.visitor',
+  //   permission: 'LIST_VISITOR',
+  //   icon: 'fas fa-eye',
+  //   uri: { name: 'dashboard.visitor' }
+  // }, {
+  //   label: 'sidebar.role',
+  //   permission: 'LIST_ROLE',
+  //   icon: 'fas fa-exclamation-triangle',
+  //   uri: { name: 'dashboard.role' }
+  // }, {
+  //   label: 'sidebar.system',
+  //   permission: 'LIST_SYSTEM_INFO',
+  //   icon: 'fas fa-cogs',
+  //   uri: { name: 'dashboard.system' }
+  // }
+  // ]
 }]

@@ -1,19 +1,19 @@
 export default {
-  dashboard: 'Dashboard',
-  user: 'Users',
-  article: 'Articles',
-  discussion: 'Discussion',
-  comment: 'Comments',
-  tag: 'Tags',
-  file: 'Files',
-  category: 'Categories',
+  dashboard: 'Дошка',
+  user: 'Користувачі',
+  article: 'Статті',
+  discussion: 'Обговорення',
+  comment: 'Коментарі',
+  tag: 'Теги',
+  file: 'Файли',
+  category: 'Категорії',
   link: 'Links',
   visitor: 'Visitors',
   role: 'Roles',
   system: 'Systems',
   modules: {
-    base: 'Base Module',
-    content: 'Content Module',
+    base: 'Користувачі',
+    content: 'Контент',
     system: 'System Module'
   }
 }

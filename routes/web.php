@@ -1,23 +1,26 @@
 <?php
 
 // User Auth
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 Auth::routes();
 Route::post('password/change', 'UserController@changePassword')->middleware('auth');
 
 // Github Auth Route
-Route::group(['prefix' => 'auth/github'], function () {
-    Route::get('/', 'Auth\AuthController@redirectToProvider');
-    Route::get('callback', 'Auth\AuthController@handleProviderCallback');
-    Route::get('register', 'Auth\AuthController@create');
-    Route::post('register', 'Auth\AuthController@store');
-});
+//Route::group(['prefix' => 'auth/github'], function () {
+//    Route::get('/', 'Auth\AuthController@redirectToProvider');
+//    Route::get('callback', 'Auth\AuthController@handleProviderCallback');
+//    Route::get('register', 'Auth\AuthController@create');
+//    Route::post('register', 'Auth\AuthController@store');
+//});
 
 // Search
 Route::get('search', 'HomeController@search');
 
 // Discussion
 Route::resource('discussion', 'DiscussionController', ['except' => 'destroy']);
-
+Route::get('/law','LawController@index');
 // User
 Route::group(['prefix' => 'user'], function () {
     Route::get('/', 'UserController@index');
@@ -48,7 +51,7 @@ Route::group(['middleware' => 'auth', 'prefix' => 'setting'], function () {
 });
 
 // Link
-Route::get('link', 'LinkController@index');
+//Route::get('link', 'LinkController@index');
 
 // Category
 Route::group(['prefix' => 'category'], function () {
@@ -70,3 +73,4 @@ Route::group(['prefix' => 'dashboard', 'middleware' => ['auth', 'admin']], funct
 // Article
 Route::get('/', 'ArticleController@index');
 Route::get('{slug}', 'ArticleController@show');
+

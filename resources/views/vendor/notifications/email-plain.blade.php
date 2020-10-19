@@ -11,6 +11,7 @@ if (! empty($introLines)) {
 }
 
 if (isset($actionText)) {
+
     echo "{$actionText}: {$actionUrl}", "\n\n";
 }
 

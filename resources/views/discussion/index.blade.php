@@ -2,11 +2,11 @@
 
 @section('content')
     @component('particals.jumbotron')
-        <h4>{{ lang('Discuss Problem') }}</h4>
+{{--        <h4>{{ lang('Discuss Problem') }}</h4>--}}
 
-        <h6>{{ lang('Discuss Subtitle') }}</h6>
+{{--        <h6>{{ lang('Discuss Subtitle') }}</h6>--}}
 
-        <a href="{{ url('discussion/create') }}" class="btn btn-info btn-sm"><i class="fas fa-pencil-alt"></i> {{ lang('Submit Problem') }}</a>
+{{--        <a href="{{ url('discussion/create') }}" class="btn btn-info btn-sm"><i class="fas fa-pencil-alt"></i> {{ lang('Submit Problem') }}</a>--}}
     @endcomponent
 
     <div class="discussion container mb-4">

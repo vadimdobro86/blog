@@ -10,8 +10,8 @@ return [
 
     // Admin Credentials
     'admin_name' => env('ADMIN_NAME') ?: 'admin',
-    'admin_email' => env('ADMIN_EMAIL') ?: 'admin@pigjian.com',
-    'admin_password' => env('ADMIN_PASSWORD') ?: 'admin',
+    'admin_email' => env('ADMIN_EMAIL') ?: 'admin@admin.com',
+    'admin_password' => env('ADMIN_PASSWORD') ?: 'password',
 
     // Default Avatar
     'default_avatar' => env('DEFAULT_AVATAR') ?: '/images/default.png',
@@ -23,10 +23,10 @@ return [
     'color_theme' => 'gray-theme',
 
     // Meta
-    'meta' => [
-        'keywords' => 'PJ Blog,blog,pigjian,laravel,vuejs',
-        'description' => 'Nothing is impossible in PJ Blog'
-    ],
+//    'meta' => [
+//        'keywords' => 'PJ Blog,blog,pigjian,laravel,vuejs',
+//        'description' => 'Nothing is impossible in PJ Blog'
+//    ],
 
     // Social Share
     'social_share' => [
@@ -44,8 +44,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
-        'description' => 'https://pigjian.com',
+        'title'       => '',
+        'description' => '',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
@@ -58,19 +58,8 @@ return [
         'sortColumn' => 'created_at',
     ],
 
-    // Footer
-    'footer' => [
-        'github' => [
-            'open' => true,
-            'url'  => 'https://github.com/jcc',
-        ],
-        'twitter' => [
-            'open' => true,
-            'url'  => 'https://twitter.com/pigjian'
-        ],
-        'meta' => '© PJ Blog 2016. Powered By Jiajian Chan',
-    ],
 
-    'license' => 'Powered By Jiajian Chan.<br/>This article is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.',
+
+
 
 ];

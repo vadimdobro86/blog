@@ -33,7 +33,7 @@
                             <i class="fas fa-eye"></i>{{ $article->view_count }}
                             <i class="fas fa-comments"></i>{{ $article->comments->count() }}
                             <a href="{{ url($article->slug) }}" class="float-right">
-                                Read More <i class="fas fa-chevron-right"></i>
+                                Більше інформації <i class="fas fa-chevron-right"></i>
                             </a>
                         </div>
                     </div>

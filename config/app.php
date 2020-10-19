@@ -12,7 +12,7 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => env('APPLICATION_NAME') ?: 'PJ Blog',
+    'name' => env('APPLICATION_NAME') ?: 'Мій блог',
 
     /*
     |--------------------------------------------------------------------------
@@ -51,7 +51,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://pigjian.app'),
+//    'url' => env('APP_URL', 'http://pigjian.app'),
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -133,7 +133,7 @@ return [
     |
     */
 
-    'providers' => [
+    'providers' => array(
 
         /*
          * Laravel Framework Service Providers...
@@ -180,8 +180,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-
-    ],
+        Onecentlin\Adminer\ServiceProvider::class,
+    ),
 
     /*
     |--------------------------------------------------------------------------

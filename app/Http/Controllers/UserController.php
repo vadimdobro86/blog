@@ -18,6 +18,7 @@ class UserController extends Controller
      */
     public function index()
     {
+
         if (Auth::check()) {
             return redirect()->to('/user/'.Auth::user()->name);
         }

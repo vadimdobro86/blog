@@ -19,7 +19,7 @@ export default {
   is_original: 'Is Original?',
   status: 'Status',
   discussions: 'Discussion',
-  articles: 'Article',
+  articles: 'Статті',
   folder_name: 'Folder Name',
   file: 'File',
   file_name: 'File Name',
