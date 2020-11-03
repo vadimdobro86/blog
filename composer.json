@@ -1,6 +1,6 @@
 {
-    "name": "jcc/blog",
-    "description": "A full-featured, easy-to-use, well-expanded blog system powered by laravel and vuejs.",
+    "name": "blog",
+    "description": "",
     "keywords": ["blog", "laravel", "vue"],
     "license": "MIT",
     "type": "project",
